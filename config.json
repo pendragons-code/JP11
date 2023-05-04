@@ -1,0 +1,10 @@
+{
+	"Default": {
+		"prefix": "jp11",
+		"DefaultEmbedColor": "#0000ff",
+		"DefaultFooterText": "Made this because was too lazy to go e-services..."
+	},
+	"Bot": {
+		"BotID": "1101133163297788034"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "jp11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon . > logFile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "better-sqlite3": "^8.3.0",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "quick.db": "^9.1.6"
+  }
+}
