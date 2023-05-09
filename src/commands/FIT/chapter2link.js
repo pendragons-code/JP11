@@ -8,6 +8,7 @@ module.exports = {
 	utilisation: "reportformatlink",
 	async execute(bot, messageCreate, args) {
 		let embedWithLink = new EmbedBuilder()
+		// I hate FIT as a subject not the nice teachers.
 		embedWithLink.setURL("https://ichatspedu.sharepoint.com/teams/JP0111FITFromM365/_layouts/15/stream.aspx?id=%2Fteams%2FJP0111FITFromM365%2FShared%20Documents%2FGeneral%2FRecordings%2FCh2%20Report%20Formatting%2D20230503%5F105657%2DMeeting%20Recording%2Emp4")
 		embedWithLink.setTitle("FIT Report formatting video url.")
 		embedWithLink.setColor(Default.DefaultEmbedColor)
