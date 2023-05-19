@@ -14,6 +14,7 @@ module.exports = {
 		phyEmbed.setColor(Default.DefaultEmbedColor)
 		phyEmbed.setFooter({ text: Default.DefaultFooterText })
 		phyEmbed.setURL("https://cdn.discordapp.com/attachments/1100406788014227458/1108834263975088229/image.png")
+		phyEmbed.setImage("https://cdn.discordapp.com/attachments/1100406788014227458/1108834263975088229/image.png")
 		return messageCreate.channel.send({ embeds: [phyEmbed] })
 	}
 }
